@@ -8,18 +8,23 @@ li {
     list-style: none;
 }
 
+h1 {
+    color: #ffffff;
+}
+
 p {
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
 }
 
 span {
-    color: #e95329;
+    color: #d99841;
 }
 
 .button {
     padding: 10px 15px;
-    background-color: #e95329;
+    background-color: #d99841;
     color: black;
     border: 0px;
     font-size: 18px;
@@ -63,13 +68,13 @@ span {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #f8e9eb;
+    background-color: #0f4c47;
 }
 
 .hero-image {
     width: 600px;
     padding: 0;
-    border: 10px dotted #e95329;
+    border: 10px dotted #ffffff;
     margin: 50px 0px;
     border-radius: 48px;
     margin-right: 60px;
@@ -82,11 +87,14 @@ span {
 .hero-head {
     font-size: 58px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ffffff;
 }
 
 .hero-para {
     font-size: 24px;
     margin-top: 10px;
+    font-weight: 500;
+    color: #ffffff;
 }
 
 .hero-cta {
@@ -96,7 +104,19 @@ span {
     margin-top: 15px;
 }
 
+.cta-button {
+    padding: 10px 15px;
+    background-color: #d99841;
+    color: black;
+    border: 0px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
 .cta-para {
-    border: 2px solid #e95329;
+    border: 2px solid #d99841;
     padding: 9px 14px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
 }
